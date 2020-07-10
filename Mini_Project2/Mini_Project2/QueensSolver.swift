@@ -1,19 +1,12 @@
 //
 //  QueensSolver.swift
-//  SwiftAGDS
+//  Mini_Project2
 //
-//  Created by Derrick Park on 2019-03-13.
-//  Copyright © 2019 Derrick Park. All rights reserved.
+//  Created by happy on 2020-07-09.
+//  Copyright © 2020 Carlos. All rights reserved.
 //
 
 import Foundation
-
-/// Write a function solveQueens that epts a Board as a parameter
-/// and tries to place 8 queens on it safely.
-///
-/// - Your method should stop exploring if it finds a solution
-/// - You are allowed to change the function header (args or return type)
-/// - Your total recursive calls should not exceed 120 times.
 
 var iteration = 0
 func solveQueens(board: inout Board, col: Int)->Bool {
@@ -33,7 +26,7 @@ func solveQueens(board: inout Board, col: Int)->Bool {
             board.remove(row: n, col: col)
         }
     }
-	return false
+    return false
 }
 func solveQueensAllSolution(board: inout Board, col: Int)->Bool {
     if col == board.getSize(){

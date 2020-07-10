@@ -1,8 +1,8 @@
 //
 //  main.swift
-//  mini project 2
+//  Mini_Project2
 //
-//  Created by happy on 2020-07-08.
+//  Created by happy on 2020-07-09.
 //  Copyright © 2020 Carlos. All rights reserved.
 //
 
