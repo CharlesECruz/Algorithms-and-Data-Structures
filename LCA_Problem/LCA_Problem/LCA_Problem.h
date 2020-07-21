@@ -1,0 +1,1 @@
+void LowestCommonAncestor(Node* root);

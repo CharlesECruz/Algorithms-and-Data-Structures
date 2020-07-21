@@ -1,0 +1,4 @@
+﻿  LCA_Problem.cpp
+C:\Users\carlo\source\repos\LCA_Problem\LCA_Problem\LCA_Problem.cpp(39,35): warning C4018: '<': signed/unsigned mismatch
+C:\Users\carlo\source\repos\LCA_Problem\LCA_Problem\LCA_Problem.cpp(45): warning C4715: 'searchNodo': not all control paths return a value
+  LCA_Problem.vcxproj -> C:\Users\carlo\source\repos\LCA_Problem\Debug\LCA_Problem.exe
