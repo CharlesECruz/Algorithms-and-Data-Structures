@@ -101,16 +101,8 @@ int dijkstra(vector<vector<int>>graph, int posNode)
     // Find shortest path for all vertices 
     for (int count = 0; count < numberNode - 1; count++) {
         int min = minDistance(distances, checkNodes);
-
-        // Mark the picked vertex as processed 
         checkNodes[min] = true;
-
-        // Update dist value of the adjacent vertices of the picked vertex. 
         for (int currentNode = 0; currentNode < numberNode; currentNode++)
-
-            // Update dist[v] only if is not in sptSet, there is an edge from 
-            // u to v, and total weight of path from src to  v through u is 
-            // smaller than current value of dist[v] 
             if (!checkNodes[currentNode] && graph[min][currentNode] && distances[min] != INT_MAX && distances[min] + graph[min][currentNode] < distances[currentNode]) {
                 distances[currentNode] = distances[min] + graph[min][currentNode];
             }           
@@ -158,10 +150,6 @@ void receiveInputDiametre() {
     }
     cout << maxDistance;
 }
-
-
-
-
 int main()
 {
     while (true){

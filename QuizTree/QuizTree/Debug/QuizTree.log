@@ -1,6 +1,6 @@
 ﻿  QuizTree.cpp
-C:\Users\carlo\source\repos\QuizTree\QuizTree\QuizTree.cpp(39,35): warning C4018: '<': signed/unsigned mismatch
-C:\Users\carlo\source\repos\QuizTree\QuizTree\QuizTree.cpp(49,23): warning C4018: '<': signed/unsigned mismatch
-C:\Users\carlo\source\repos\QuizTree\QuizTree\QuizTree.cpp(190,27): warning C4018: '<': signed/unsigned mismatch
-C:\Users\carlo\source\repos\QuizTree\QuizTree\QuizTree.cpp(45): warning C4715: 'searchNodo': not all control paths return a value
-  QuizTree.vcxproj -> C:\Users\carlo\source\repos\QuizTree\Debug\QuizTree.exe
+D:\Data\MobileCICCC\Algorithms-and-Data-Structures\QuizTree\QuizTree\QuizTree.cpp(38,35): warning C4018: '<': signed/unsigned mismatch
+D:\Data\MobileCICCC\Algorithms-and-Data-Structures\QuizTree\QuizTree\QuizTree.cpp(48,23): warning C4018: '<': signed/unsigned mismatch
+D:\Data\MobileCICCC\Algorithms-and-Data-Structures\QuizTree\QuizTree\QuizTree.cpp(128,27): warning C4018: '<': signed/unsigned mismatch
+D:\Data\MobileCICCC\Algorithms-and-Data-Structures\QuizTree\QuizTree\QuizTree.cpp(44): warning C4715: 'searchNodo': not all control paths return a value
+  QuizTree.vcxproj -> D:\Data\MobileCICCC\Algorithms-and-Data-Structures\QuizTree\Debug\QuizTree.exe
