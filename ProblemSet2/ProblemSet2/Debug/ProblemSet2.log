@@ -1,0 +1,4 @@
+﻿  ProblemSet2.cpp
+C:\Users\carlo\source\repos\ProblemSet2\ProblemSet2\ProblemSet2.cpp(92,26): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+C:\Users\carlo\source\repos\ProblemSet2\ProblemSet2\ProblemSet2.cpp(124,20): warning C4018: '<': signed/unsigned mismatch
+  ProblemSet2.vcxproj -> C:\Users\carlo\source\repos\ProblemSet2\Debug\ProblemSet2.exe
